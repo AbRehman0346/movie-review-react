@@ -1,3 +1,17 @@
 .flex {
   display: flex;
 }
+
+.color-light {
+  color: white;
+}
+
+.bg-color {
+  color: rgb(28, 40, 52);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 20px);
+  grid-gap: 20px;
+}

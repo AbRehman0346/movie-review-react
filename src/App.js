@@ -1,8 +1,10 @@
 import React from 'react'
-import Header from './components/Header'
+import IndexPage from './pages/index'
+import Login from './pages/login'
 
 function App() {
-  return <Header />
+  return <Login />
+  // return <IndexPage />
 }
 
 export default App
